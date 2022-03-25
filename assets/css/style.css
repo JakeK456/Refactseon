@@ -17,6 +17,7 @@ p {
     font-size: 16px;
 }
 
+/* Header includes Horiseon name in top right and the nav bar inline right justified*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +51,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Single instance of big image in the center of the webpage */
 #main-image {
     height: 800px;
     width: 100%;
@@ -59,12 +61,14 @@ header nav ul li {
     background-position: center;
 }
 
+/* section with main conent of the webpage (bottom left chunk of webpage) */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Three articles inside main content, each with header, image, and paragraph */
 .content article{
     margin-bottom: 20px;
     padding: 50px;
@@ -83,16 +87,19 @@ header nav ul li {
     font-size: 36px;
 }
 
+/* used for image justification */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* used for image justification */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* lower right vertical portion of webpage containing three articles */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,6 +111,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* three articles within aside */
 aside article {
     margin-bottom: 32px;
     color: #ffffff;
@@ -120,6 +128,7 @@ aside article img {
     max-width: 150px;
 }
 
+/* bottom of webpage containing Horiseon logo and copyright */
 footer {
     padding: 30px;
     clear: both;
